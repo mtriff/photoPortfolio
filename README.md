@@ -1,5 +1,6 @@
 Photo Portfolio
 ===================
+![photoportfolio](https://cloud.githubusercontent.com/assets/6794845/11320307/a0e49056-9062-11e5-8509-4f587f391e63.gif)
 
 Node.js based generator for a photo portfolio website.
 
