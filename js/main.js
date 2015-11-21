@@ -141,6 +141,7 @@
 		if( this.options.backCtrl ) {
 			this.backCtrl.addEventListener('click', function() {
 				$('#content').html('');
+				$('.menu__link--current').removeClass('menu__link--current');
 				self._back();
 			});
 		}
@@ -182,6 +183,7 @@
 
 	MLMenu.prototype._menuOut = function(clickPosition) {
 		$('#content').html('');
+		$('.menu__link--current').removeClass('menu__link--current');
 
 		// the current menu
 		var self = this,
