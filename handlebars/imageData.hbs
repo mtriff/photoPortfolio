@@ -1,0 +1,6 @@
+var dummyData = {
+  {{#each menuitems}}  
+      "{{name}}": "{{#each photos}}<div class=\"photo\"><a href=\"{{../pathTo}}{{toFolder ../name}}/{{file}}\" title=\"{{title}}\"><img src=\"{{../thumbnailPathTo}}{{toFolder ../name}}/{{file}}\"></a></div>{{/each}}",
+    {{> listImages this}}
+  {{/each}}
+}
