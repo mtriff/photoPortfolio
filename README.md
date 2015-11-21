@@ -9,8 +9,9 @@ Built using:
 - [Freewall](http://vnjs.net/www/project/freewall/)
 - [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup)
 - [Codrops Multi-Level Menu](http://tympanus.net/codrops/2015/11/17/multi-level-menu/)
+- [Handlebars](http://handlebarsjs.com/)
 
-**Prerequisite:** [ImageMagick](http://www.imagemagick.org/script/index.php) for the creation of thumbnails
+**Prerequisite:** [ImageMagick](http://www.imagemagick.org/script/index.php) must be installed for the creation of thumbnails
 
 How to Use
 --------------
