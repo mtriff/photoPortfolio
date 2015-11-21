@@ -23,7 +23,7 @@ Handlebars.registerPartial('listSubfolders', '' +
 Handlebars.registerPartial('listImages', '' +
   '{{#if submenu}}' +
     '{{#each subdirs}}' +
-      '"{{name}}": "{{#each photos}}<div class=\\\"photo\\\"><a href=\\\"{{../pathTo}}{{toFolder ../name}}/{{file}}\\\" title=\\\"{{title}}\\\"><img src=\\\"{{../pathTo}}{{toFolder ../name}}/{{file}}\\\"></a></div>{{/each}}",\n' +
+      '"{{name}}": "{{#each photos}}<div class=\\\"photo\\\"><a href=\\\"{{../pathTo}}{{toFolder ../name}}/{{file}}\\\" title=\\\"{{title}}\\\"><img src=\\\"{{../thumbnailPathTo}}{{toFolder ../name}}/{{file}}\\\"></a></div>{{/each}}",\n' +
     '{{/each}}' +
   '{{/if}}' +
   '{{#each subdirs}}' +
